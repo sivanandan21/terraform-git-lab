@@ -16,8 +16,7 @@ resource "aws_instance" "web" {
   instance_type = var.instance_type
 
   tags = {
-    Name        = "Terraform-Git-Server"
+    Name        = "Terraform-Dev-Server"
     Environment = "Development"
-    ManagedBy   = "Terraform"
   }
 }
